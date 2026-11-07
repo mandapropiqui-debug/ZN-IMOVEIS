@@ -95,3 +95,9 @@ html{scroll-padding-top:0!important}
 .busca__head .kicker::before{display:none}
 .busca__head .kicker{text-align:center;display:block}
 section[id]{scroll-margin-top:0!important}
+/* desktop: topo flutuante alinhado à esquerda, sobre o texto */
+@media(min-width:861px){
+ .dock-wrap{justify-content:flex-start;padding-left:max(6vw,3rem)}
+}
+@media(min-width:861px){ .dock-wrap{top:max(1.5rem,env(safe-area-inset-top))} }
+@media(min-width:861px){ .dock-wrap{top:3.1rem} }
