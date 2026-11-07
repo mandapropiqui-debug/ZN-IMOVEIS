@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZN Imóveis — Imobiliária boutique em Teresina e Cajueiro da Praia</title>
+<meta name="description" content="ZN Imóveis: casas em condomínio, casas de rua, apartamentos, coberturas e imóveis na praia em Teresina e Cajueiro da Praia. CRECI PJ 587. Fale com o Zé Neto no WhatsApp.">
+<meta name="theme-color" content="#070707">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="ZN Imóveis">
+<meta property="og:title" content="ZN Imóveis — Imobiliária boutique em Teresina">
+<meta property="og:description" content="Somos especialistas em conectar você ao imóvel ideal. Teresina e Cajueiro da Praia.">
+<meta property="og:image" content="assets/img/og.jpg">
+<link rel="icon" type="image/png" href="assets/img/zn-logo-sm.png">
+<link rel="preload" href="assets/fonts/Fraunces-300v700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/IBMPlexSans-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/hero.css">
+<link rel="stylesheet" href="assets/css/busca.css">
+<link rel="stylesheet" href="assets/css/paginas.css">
+</head>
+<body>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <img class="loader__logo" src="assets/img/zn-logo.png" alt="">
+    <div class="loader__bar"><i id="loaderFill"></i></div>
+    <div class="loader__label"><span id="loaderPct">0</span>% — abrindo a casa</div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="dock-wrap" id="nav">
+  <nav class="dock" id="navLinks" aria-label="Navegação principal">
+    <a class="dock__brand" href="#topo" aria-label="ZN Imóveis — início" data-tip="Início"><img src="assets/img/zn-logo-sm.png" alt="" width="48" height="31"></a>
+    <span class="dock__sep" aria-hidden="true"></span>
+    <a href="#lareserve" aria-label="La Reserve" data-tip="La Reserve"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V8l6-5 6 5v13"/><path d="M3 21h18"/><path d="M10 21v-5h4v5M10 11h4"/></svg></a>
+    <a href="#chegada" aria-label="Experiência" data-tip="Experiência"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 17v4M17 19h4"/></svg></a>
+    <a href="#imoveis" aria-label="Imóveis" data-tip="Imóveis"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></a>
+    <a href="#categorias" aria-label="Categorias" data-tip="Categorias"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg></a>
+    <a href="#atendimento" aria-label="Atendimento" data-tip="Atendimento"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4.2A8 8 0 1 1 20 12z"/><path d="M9 11h6M9 14h4"/></svg></a>
+    <a href="#contato" aria-label="Contato" data-tip="Contato"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg></a>
+    <span class="dock__sep" aria-hidden="true"></span>
+    <a class="dock__sell" href="#vender" aria-label="Quero vender meu imóvel" data-tip="Quero vender meu imóvel"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12.5V4h8.5l9 9-8.5 8.5z"/><circle cx="7.8" cy="8.3" r="1.2"/><path d="M12 12.5v4M13.6 13.4c-.4-.4-.9-.5-1.6-.5s-1.3.3-1.3 1 .9.9 1.3 1c.5.1 1.5.2 1.5 1s-.8 1-1.5 1-1.1-.2-1.5-.6"/></svg></a>
+  </nav>
+</header>
+
+<!-- ============ FILM RAIL ============ -->
+
+<main id="topo">
+
+<section class="lr" id="lareserve" aria-label="La Reserve — Sá Cavalcante">
+ <div class="sky"></div><div class="stars" id="stars"></div>
+ <div class="city far" id="cityFar"></div><div class="city" id="city"></div><div class="river"></div>
+ <div class="counter" id="ctr">PAV. 00 / 30</div>
+ <div class="scene"><div class="rig" id="rig"><div class="halo" id="halo"></div><div class="tower" id="tower"></div><div class="scan" id="scan"></div><div class="spark" id="spark"></div></div></div>
+ <div class="fade" id="fade"></div>
+ <div class="copy">
+  <div class="eyebrow" id="eb">Teresina · Rio Poty · Super luxo</div>
+  <h1><span class="ln"><span>O topo de</span></span><span class="ln"><span>Teresina</span></span><span class="ln"><span><em>tem endereço.</em></span></span></h1>
+  <p class="lede" id="lede">La Reserve, da Sá Cavalcante: o único complexo multiuso do Piauí, com projeto reconhecido internacionalmente.</p>
+  <div class="facts" id="facts"><div><b>6 m</b>pé-direito duplo</div><div><b>+R$ 3 mi</b>em mobiliário assinado</div></div>
+  <div class="cta" id="cta"><a class="btn" href="#busca">Quero conhecer</a><a class="btn o" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20La%20Reserve." target="_blank" rel="noopener">Falar no WhatsApp</a></div>
+ </div>
+ <div class="hint">role para entrar</div>
+ <div class="grain"></div>
+</section>
+
+
+<!-- ============================ BUSCA ============================ -->
+<section class="busca" id="busca" aria-label="O que você procura?">
+  <div class="busca__bg" aria-hidden="true"><img src="assets/img/ze-neto.jpg" alt=""></div>
+  <div class="wrap busca__in">
+    <div class="busca__txt">
+      <div class="busca__head">
+      <p class="kicker reveal">Zé Neto · ZN Imóveis · Comece por aqui</p>
+      <h2 class="busca__title reveal">O que você <em>procura?</em></h2>
+      <p class="busca__sub reveal">Escolha o tipo e o lugar. Eu mostro só o que combina com você.</p>
+      </div>
+      <div class="busca__form">
+      <div class="busca__step reveal">
+        <p class="busca__lbl"><i>1</i>Tipo de imóvel</p>
+        <div class="chips" id="chipsTipo" role="group" aria-label="Tipo de imóvel">
+          <button class="chip" type="button" data-v="" aria-pressed="true">Qualquer</button>
+          <button class="chip" type="button" data-v="casa" aria-pressed="false">Casa</button>
+          <button class="chip" type="button" data-v="apartamento" aria-pressed="false">Apartamento</button>
+          <button class="chip" type="button" data-v="cobertura" aria-pressed="false">Cobertura</button>
+          <button class="chip" type="button" data-v="fazenda" aria-pressed="false">Fazenda / Sítio</button>
+          <button class="chip" type="button" data-v="terreno" aria-pressed="false">Terreno / Lote</button>
+          <button class="chip" type="button" data-v="lancamento" aria-pressed="false">Lançamento</button>
+        </div>
+      </div>
+      <div class="busca__step reveal">
+        <p class="busca__lbl"><i>2</i>Onde</p>
+        <div class="chips" id="chipsLugar" role="group" aria-label="Cidade">
+          <button class="chip" type="button" data-v="" aria-pressed="true">Qualquer lugar</button>
+          <button class="chip" type="button" data-v="teresina" aria-pressed="false">Teresina</button>
+          <button class="chip" type="button" data-v="cajueiro" aria-pressed="false">Cajueiro da Praia</button>
+          <button class="chip" type="button" data-v="barra" aria-pressed="false">Barra Grande</button>
+        </div>
+      </div>
+      <div class="busca__go reveal">
+        <button class="btn btn--lg" type="button" id="buscaGo">Ver imóveis</button>
+        <small>Sem cadastro. Você só rola até a vitrine.</small>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ VENDER ============================ -->
+<section class="pg pg--gold vender" id="vender" aria-label="Quero vender meu imóvel">
+  <div class="wrap vender__grid">
+    <div class="vender__pitch">
+      <p class="pg__eyebrow reveal"><span>Para proprietários</span></p>
+      <h2 class="pg__title reveal">Quer vender ou <em>expor seu imóvel?</em></h2>
+      <p class="pg__lede reveal">Conte o que você tem. O Zé Neto retorna no WhatsApp e mostra como a ZN pode apresentar o seu imóvel para quem está procurando.</p>
+      <ul class="pg__ticks reveal">
+        <li>Divulgação no @z_n.imoveis e também no perfil pessoal do Zé Neto (@z_neto, 170 mil seguidores), o de maior alcance</li>
+        <li>Atendimento direto com o Zé Neto, da primeira conversa até a chave</li>
+        <li>Você só preenche o formulário. Sem cadastro e sem compromisso</li>
+      </ul>
+    </div>
+    <form class="vform reveal" id="venderForm" novalidate>
+      <p class="vform__title">Expor meu imóvel</p>
+      <label class="vfield"><span>O que você quer vender</span>
+        <select name="tipo" required>
+          <option value="">Escolha o tipo</option>
+          <option>Casa em condomínio</option><option>Casa de rua</option><option>Apartamento</option><option>Cobertura</option>
+          <option>Fazenda ou sítio</option><option>Terreno ou lote</option><option>Imóvel na praia</option><option>Outro</option>
+        </select></label>
+      <label class="vfield"><span>Onde fica</span>
+        <select name="lugar" required>
+          <option value="">Escolha o lugar</option>
+          <option>Teresina</option><option>Cajueiro da Praia</option><option>Barra Grande</option><option>Outro lugar</option>
+        </select></label>
+      <label class="vfield"><span>Bairro ou condomínio</span>
+        <input type="text" name="bairro" placeholder="Ex.: Santa Isabel, Terras Alphaville"></label>
+      <div class="vrow">
+        <label class="vfield"><span>Seu nome</span><input type="text" name="nome" autocomplete="name" required placeholder="Como posso te chamar?"></label>
+        <label class="vfield"><span>Seu WhatsApp</span><input type="tel" name="whatsapp" autocomplete="tel" inputmode="tel" required placeholder="(86) 00000-0000"></label>
+      </div>
+      <button class="vbtn" type="submit">Quero expor meu imóvel</button>
+      <p class="vform__status" id="venderStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- PÁGINAS -->
+<section class="pg pg--black" id="chegada" aria-label="Exterior — a chegada">
+  <div class="pg__num" aria-hidden="true">01</div>
+  <div class="wrap pg__grid">
+    <div class="pg__txt">
+      <p class="pg__eyebrow reveal"><span>01</span> Exterior — a chegada</p>
+      <h2 class="pg__title reveal">Seu próximo endereço <em>começa aqui.</em></h2>
+      <p class="pg__lede reveal">ZN Imóveis, imobiliária boutique em Teresina e Cajueiro da Praia. Conheça a vitrine e chegue já sabendo para onde ir.</p>
+      <div class="pg__act reveal"><a class="pbtn" href="#imoveis">Ver imóveis</a><a class="pbtn pbtn--o" href="https://wa.me/5586981818067" target="_blank" rel="noopener">Falar no WhatsApp</a></div>
+    </div>
+    <div class="pg__art" aria-hidden="true"><svg viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M40 190 200 60l160 130"/><path d="M70 170v190h260V170"/><rect x="165" y="250" width="70" height="110"/><rect x="95" y="215" width="50" height="50"/><rect x="255" y="215" width="50" height="50"/><path d="M260 90V60h40v60"/><circle cx="200" cy="165" r="18"/></svg></div>
+  </div>
+</section>
+
+<section class="pg pg--gold" id="lazer" aria-label="Lazer — o quintal">
+  <div class="pg__num" aria-hidden="true">02</div>
+  <div class="wrap pg__grid">
+    <div class="pg__txt">
+      <p class="pg__eyebrow reveal"><span>02</span> Lazer — o quintal</p>
+      <h2 class="pg__title reveal">Casa boa é a que <em>convida a ficar.</em></h2>
+      <ul class="pg__ticks reveal">
+        <li>Casas em condomínio e de rua, apartamentos e coberturas</li>
+        <li>Imóveis na praia, no litoral piauiense</li>
+        <li>Atendimento direto, da primeira conversa até a chave</li>
+      </ul>
+      <div class="pg__act reveal"><a class="pbtn" href="#categorias">Ver categorias</a></div>
+    </div>
+    <div class="pg__art" aria-hidden="true"><svg viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="300" cy="90" r="38"/><path d="M300 30v-14M300 164v14M236 90h-14M378 90h14M255 45l-10-10M345 135l10 10M345 45l10-10M255 135l-10 10"/><path d="M30 250c40-24 80-24 120 0s80 24 120 0 80-24 100 0"/><path d="M30 300c40-24 80-24 120 0s80 24 120 0 80-24 100 0"/><path d="M30 350c40-24 80-24 120 0s80 24 120 0 80-24 100 0"/><path d="M90 250V200l50-30 50 30v50"/></svg></div>
+  </div>
+</section>
+
+<!-- ============================ NÚMEROS ============================ -->
+<section class="interlude" id="numeros" aria-label="A ZN em números">
+  <div class="wrap">
+    <p class="interlude__lead reveal">Somos especialistas em conectar você ao imóvel ideal.</p>
+    <ul class="stats">
+      <li class="reveal"><b class="num" data-to="185" data-suffix=" mil">0</b><span>seguidores somando o perfil da ZN e o do Zé Neto, onde todo imóvel também é divulgado</span></li>
+      <li class="reveal"><b class="num" data-to="945">0</b><span>publicações com imóveis, vídeos e bastidores</span></li>
+      <li class="reveal"><b class="num" data-to="5">0</b><span>categorias de imóvel, de apartamento a casa de praia</span></li>
+      <li class="reveal"><b class="num" data-to="2">0</b><span>praças de atuação: Teresina e Cajueiro da Praia</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="pg pg--gold" id="ambientes" aria-label="Ambientes — por dentro">
+  <div class="pg__num" aria-hidden="true">03</div>
+  <div class="wrap pg__grid">
+    <div class="pg__txt">
+      <p class="pg__eyebrow reveal"><span>03</span> Ambientes — por dentro</p>
+      <h2 class="pg__title reveal">Entre. Sinta o espaço <em>antes da visita.</em></h2>
+      <p class="pg__lede reveal">Mostramos cada imóvel em fotos e vídeos, do jeito que ele é. Você chega para visitar já sabendo se é a sua casa.</p>
+      <div class="pg__act reveal"><a class="pbtn" href="#imoveis">Ver a vitrine</a></div>
+    </div>
+    <div class="pg__art" aria-hidden="true"><svg viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="110" y="40" width="180" height="320" rx="6"/><rect x="135" y="65" width="130" height="130" rx="4"/><rect x="135" y="215" width="130" height="120" rx="4"/><circle cx="262" cy="270" r="9"/><path d="M60 360h280"/></svg></div>
+  </div>
+</section>
+
+<section class="pg pg--black" id="convite" aria-label="Convite — a chave">
+  <div class="pg__num" aria-hidden="true">04</div>
+  <div class="wrap pg__grid">
+    <div class="pg__txt">
+      <p class="pg__eyebrow reveal"><span>04</span> Convite — a chave</p>
+      <h2 class="pg__title reveal">Gostou do que viu? <em>Vamos visitar.</em></h2>
+      <p class="pg__lede reveal">Chame o Zé Neto no WhatsApp e agende uma visita em Teresina ou em Cajueiro da Praia.</p>
+      <div class="pg__act reveal"><a class="pbtn" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ZN%20Im%C3%B3veis%20e%20quero%20agendar%20uma%20visita." target="_blank" rel="noopener">Agendar visita</a><a class="pbtn pbtn--o" href="#contato">Deixar meus dados</a></div>
+    </div>
+    <div class="pg__art" aria-hidden="true"><svg viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="130" cy="140" r="70"/><circle cx="130" cy="140" r="26"/><path d="M180 190 340 350M290 300l38-38M255 265l30-30"/></svg></div>
+  </div>
+</section>
+
+<!-- ============================ VITRINE ============================ -->
+<section class="sec" id="imoveis">
+  <div class="wrap">
+    <header class="head reveal">
+      <p class="kicker">Vitrine</p>
+      <h2 class="head__title">Imóveis em destaque. <em>Cada um com sua história.</em></h2>
+      <p class="head__sub">Seleção recente da ZN. Valores e disponibilidade conforme divulgado no Instagram em novembro de 2026; confirme com o corretor antes de visitar.</p>
+    </header>
+
+    <div class="filtro" id="filtro" role="status"><span id="filtroTxt"></span><button type="button" id="filtroLimpar">Ver todos</button></div>
+    <div class="vazio" id="vazio"><h3 id="vazioT">Ainda não temos esse imóvel na vitrine.</h3><p>O Zé Neto trabalha com imóveis que nem chegaram ao site. Fale com ele e conte o que você procura.</p><a class="btn" id="vazioBtn" href="https://wa.me/5586981818067" target="_blank" rel="noopener">Falar com o Zé Neto</a></div>
+    <div class="grid grid--3" id="gridVitrine">
+      <article class="card reveal" data-tipo="apartamento lancamento" data-lugar="teresina">
+        <div class="card__media" style="background:radial-gradient(70% 60% at 50% 30%,#2a1f0e,#070707)"><img src="assets/img/tower.webp" alt="Torre La Reserve, da Sá Cavalcante" loading="lazy" style="object-fit:contain;object-position:50% 50%;padding:6% 0"><span class="card__tag">Lançamento</span></div>
+        <div class="card__body">
+          <p class="card__place">La Reserve · Sá Cavalcante · Teresina</p>
+          <h3 class="card__name">O único complexo multiuso do Piauí</h3>
+          <p class="card__price">Consulte condições</p>
+          <dl class="specs"><div><dt>Padrão</dt><dd>Super luxo</dd></div><div><dt>Pé-direito</dt><dd>Duplo, 6 m</dd></div><div><dt>Mobiliário</dt><dd>Assinado</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20La%20Reserve." target="_blank" rel="noopener">Quero conhecer<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+
+      <article class="card reveal" data-tipo="casa" data-lugar="teresina">
+        <div class="card__media"><img src="assets/img/card-alphaville.jpg" alt="Fachada da casa térrea moderna no Terras Alphaville" loading="lazy"><span class="card__tag">Condomínio</span></div>
+        <div class="card__body">
+          <p class="card__place">Terras Alphaville · Teresina</p>
+          <h3 class="card__name">Casa térrea com piscina e espaço gourmet</h3>
+          <p class="card__price">R$ 1.350.000</p>
+          <dl class="specs"><div><dt>Construída</dt><dd>150 m²</dd></div><div><dt>Terreno</dt><dd>300 m²</dd></div><div><dt>Suítes</dt><dd>3</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20casa%20no%20Terras%20Alphaville." target="_blank" rel="noopener">Quero visitar<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+
+      <article class="card reveal" data-tipo="cobertura apartamento" data-lugar="teresina">
+        <div class="card__media"><img src="assets/img/card-cobertura.jpg" alt="Sala de estar e jantar da cobertura duplex no Recanto dos Ipês" loading="lazy"><span class="card__tag">Duplex</span></div>
+        <div class="card__body">
+          <p class="card__place">Recanto dos Ipês · Morros, Teresina</p>
+          <h3 class="card__name">Cobertura duplex com escritório sob a escada</h3>
+          <p class="card__price">R$ 1.080.000</p>
+          <dl class="specs"><div><dt>Área</dt><dd>140 m²</dd></div><div><dt>Suítes</dt><dd>3</dd></div><div><dt>Tipo</dt><dd>Duplex</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20cobertura%20no%20Recanto%20dos%20Ip%C3%AAs." target="_blank" rel="noopener">Quero visitar<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+
+      <article class="card reveal" data-tipo="casa" data-lugar="teresina">
+        <div class="card__media"><img src="assets/img/card-santa-isabel.jpg" alt="Varanda e área gourmet da casa no Santa Isabel" loading="lazy"><span class="card__tag card__tag--alt">Esquina</span></div>
+        <div class="card__body">
+          <p class="card__place">Santa Isabel · Teresina</p>
+          <h3 class="card__name">Casa imponente em terreno de esquina</h3>
+          <p class="card__price">R$ 1.790.000</p>
+          <dl class="specs"><div><dt>Construída</dt><dd>350 m²</dd></div><div><dt>Suítes</dt><dd>5</dd></div><div><dt>Lazer</dt><dd>Piscina</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20casa%20no%20Santa%20Isabel." target="_blank" rel="noopener">Quero visitar<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+
+      <article class="card reveal" data-tipo="casa" data-lugar="cajueiro">
+        <div class="card__media"><img src="assets/img/card-coqueiro.jpg" alt="Casa triplex com sacada de vidro e rooftop na Praia do Coqueiro" loading="lazy"><span class="card__tag card__tag--alt">Vista mar</span></div>
+        <div class="card__body">
+          <p class="card__place">Praia do Coqueiro · Piauí</p>
+          <h3 class="card__name">Casa triplex com rooftop e energia solar</h3>
+          <p class="card__price">R$ 1.900.000</p>
+          <dl class="specs"><div><dt>Construída</dt><dd>290 m²</dd></div><div><dt>Suítes</dt><dd>5</dd></div><div><dt>Extra</dt><dd>Rooftop</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20casa%20na%20Praia%20do%20Coqueiro." target="_blank" rel="noopener">Quero visitar<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+
+      <article class="card reveal" data-tipo="casa" data-lugar="teresina">
+        <div class="card__media"><img src="assets/img/card-petropolis.jpg" alt="Casa nova de esquina com varanda de madeira no Condomínio Petrópolis" loading="lazy"><span class="card__tag">Casa nova</span></div>
+        <div class="card__body">
+          <p class="card__place">Condomínio Petrópolis</p>
+          <h3 class="card__name">Casa nova em condomínio</h3>
+          <p class="card__price">R$ 1.800.000</p>
+          <dl class="specs"><div><dt>Suítes</dt><dd>4</dd></div><div><dt>Estado</dt><dd>Nova</dd></div><div><dt>Tipo</dt><dd>Condomínio</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20casa%20no%20Condom%C3%ADnio%20Petr%C3%B3polis." target="_blank" rel="noopener">Quero visitar<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+
+      <article class="card reveal" data-tipo="fazenda" data-lugar="teresina">
+        <div class="card__media"><img src="assets/img/card-sitio.jpg" alt="Sítio com casa de telhado colonial e gramado na Lagoa da Mata" loading="lazy"><span class="card__tag">Natureza</span></div>
+        <div class="card__body">
+          <p class="card__place">Lagoa da Mata · Teresina</p>
+          <h3 class="card__name">Sítio com estrutura completa e acesso fácil</h3>
+          <p class="card__price">R$ 2.480.000</p>
+          <dl class="specs"><div><dt>Terreno</dt><dd>3 ha</dd></div><div><dt>Quartos</dt><dd>4</dd></div><div><dt>Suítes</dt><dd>3</dd></div></dl>
+          <a class="card__link" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20s%C3%ADtio%20na%20Lagoa%20da%20Mata." target="_blank" rel="noopener">Quero visitar<span aria-hidden="true"> →</span></a>
+        </div>
+      </article>
+    </div>
+
+    <aside class="launch reveal" id="launchGG" data-tipo="lancamento casa" data-lugar="teresina">
+      <div>
+        <p class="kicker kicker--gold">Lançamento</p>
+        <h3 class="launch__title">Golden Gardens, na Zona Leste de Teresina</h3>
+        <p class="launch__txt">Condomínio de casas da Saga Engenharia, em frente ao Aldebaran Ville, na Av. Antônio Guimarães. Casas disponíveis a partir de <strong>R$ 779.000</strong>, com plano de pré-lançamento e condições facilitadas pela construtora.</p>
+      </div>
+      <a class="btn" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Golden%20Gardens." target="_blank" rel="noopener">Saber mais</a>
+    </aside>
+  </div>
+</section>
+
+<!-- ============================ CATEGORIAS ============================ -->
+<section class="sec sec--tint" id="categorias">
+  <div class="wrap">
+    <header class="head reveal">
+      <p class="kicker">Categorias</p>
+      <h2 class="head__title">Encontre pelo jeito <em>que você quer morar.</em></h2>
+      <p class="head__sub">Do apartamento à casa de praia, a ZN cobre as principais opções de Teresina e do litoral.</p>
+    </header>
+
+    <div class="grid grid--3 cat">
+      <a class="cat__item reveal" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Procuro%20casa%20em%20condom%C3%ADnio." target="_blank" rel="noopener">
+        <span class="cat__n">01</span><h3>Casa em condomínio</h3><p>Segurança, área de lazer e a rotina da família mais leve.</p><span class="cat__go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat__item reveal" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Procuro%20casa%20de%20rua." target="_blank" rel="noopener">
+        <span class="cat__n">02</span><h3>Casa de rua</h3><p>Terrenos de esquina, quintais amplos e projetos com personalidade.</p><span class="cat__go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat__item reveal" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Procuro%20apartamento%20ou%20cobertura." target="_blank" rel="noopener">
+        <span class="cat__n">03</span><h3>Apartamento e cobertura</h3><p>Praticidade, localização e, nas coberturas, uma área externa só sua.</p><span class="cat__go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat__item reveal" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Procuro%20im%C3%B3vel%20na%20praia." target="_blank" rel="noopener">
+        <span class="cat__n">04</span><h3>Imóvel na praia</h3><p>Casas de veraneio e temporada no litoral piauiense, com Cajueiro da Praia como base.</p><span class="cat__go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat__item reveal" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Procuro%20im%C3%B3vel%20para%20alugar." target="_blank" rel="noopener">
+        <span class="cat__n">05</span><h3>Aluguel</h3><p>Casas, apartamentos e salas comerciais para alugar em Teresina.</p><span class="cat__go" aria-hidden="true">→</span>
+      </a>
+      <a class="cat__item reveal" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Quero%20saber%20sobre%20cons%C3%B3rcio%20e%20investimento." target="_blank" rel="noopener">
+        <span class="cat__n">06</span><h3>Consórcio e investimento</h3><p>Parceria com a Ademicon para quem quer comprar, investir ou construir patrimônio.</p><span class="cat__go" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ATENDIMENTO ============================ -->
+<section class="sec" id="atendimento">
+  <div class="wrap">
+    <header class="head reveal">
+      <p class="kicker">Atendimento</p>
+      <h2 class="head__title">Três passos. <em>Do primeiro oi à chave.</em></h2>
+    </header>
+
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step__n">01</span>
+        <div><h3>Conversa no WhatsApp</h3><p>Você conta o que procura: tipo de imóvel, região, faixa de valor e prazo. A ZN seleciona as melhores opções para o seu perfil.</p></div>
+      </li>
+      <li class="step reveal">
+        <span class="step__n">02</span>
+        <div><h3>Visita guiada</h3><p>Você vê os imóveis em vídeo antes e visita pessoalmente os que fazem sentido, com o corretor mostrando cada detalhe.</p></div>
+      </li>
+      <li class="step reveal">
+        <span class="step__n">03</span>
+        <div><h3>Negociação e chave na mão</h3><p>Proposta, condições de pagamento, documentação e financiamento acompanhados até a entrega.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================ CONTATO ============================ -->
+<section class="close" id="contato">
+  <div class="wrap close__grid">
+    <div class="close__pitch reveal">
+      <p class="kicker kicker--gold">Próximo passo</p>
+      <h2 class="display">Vamos encontrar<br><em>o seu imóvel.</em></h2>
+      <p class="lede">Conte o que você procura e receba as melhores opções direto no WhatsApp.</p>
+
+      <a class="btn btn--lg" href="https://wa.me/5586981818067?text=Ol%C3%A1!%20Vi%20o%20site%20da%20ZN%20Im%C3%B3veis%20e%20quero%20ajuda%20para%20encontrar%20um%20im%C3%B3vel." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+
+      <dl class="close__facts">
+        <div><dt>Onde</dt><dd>Teresina e Cajueiro da Praia</dd></div>
+        <div><dt>CRECI</dt><dd>PJ 587</dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/z_n.imoveis/" target="_blank" rel="noopener">@z_n.imoveis</a></dd></div>
+      </dl>
+    </div>
+
+    <form class="form reveal" id="briefing" novalidate>
+      <p class="form__title">Receber opções</p>
+
+      <label class="field"><span>Nome</span>
+        <input type="text" name="nome" autocomplete="name" required placeholder="Como posso te chamar?"></label>
+
+      <label class="field"><span>Seu WhatsApp</span>
+        <input type="tel" name="whatsapp" autocomplete="tel" required placeholder="(86) 00000-0000" inputmode="tel"></label>
+
+      <label class="field"><span>O que você procura</span>
+        <select name="interesse" required>
+          <option value="">Escolha uma opção</option>
+          <option>Comprar casa em condomínio</option>
+          <option>Comprar casa de rua</option>
+          <option>Comprar apartamento ou cobertura</option>
+          <option>Imóvel na praia</option>
+          <option>Alugar</option>
+          <option>Consórcio ou investimento</option>
+        </select></label>
+
+      <label class="field"><span>Mais detalhes (opcional)</span>
+        <textarea name="mensagem" rows="3" placeholder="Ex.: 3 suítes, até R$ 1,5 milhão, zona leste"></textarea></label>
+
+      <button class="btn btn--block btn--lg" type="submit">Enviar pelo WhatsApp</button>
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <img class="foot__logo" src="assets/img/zn-logo.png" alt="ZN Imóveis">
+      <p class="foot__tag">Imobiliária boutique. Somos especialistas em conectar você ao imóvel ideal.</p>
+    </div>
+    <nav aria-label="Rodapé">
+      <a href="#chegada">Experiência</a>
+      <a href="#imoveis">Imóveis</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <p class="foot__legal">
+      ZN Imóveis · Creci PJ 587<br>
+      Teresina e Cajueiro da Praia · Piauí<br>
+      Valores e condições sujeitos a alteração sem aviso prévio.<br>
+      © <span id="ano">2026</span> ZN Imóveis.
+    </p>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/5586981818067" target="_blank" rel="noopener" aria-label="Chamar a ZN Imóveis no WhatsApp">
+  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.45 15.06L2 22l5.08-1.33A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.01.79.8-2.93-.2-.31a8.2 8.2 0 1 1 6.89 3.77Zm4.5-6.15c-.25-.12-1.46-.72-1.69-.8-.22-.09-.39-.12-.55.12-.17.25-.63.8-.77.96-.14.17-.28.19-.53.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.71-1.33.08-.17.04-.31-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47c-.17 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.52c.12.17 1.71 2.62 4.14 3.67 1.53.66 2.13.72 2.9.6.47-.07 1.46-.6 1.66-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.17-.47-.29Z"/></svg>
+</a>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/hero.js"></script>
+<script src="assets/js/busca.js"></script>
+</body>
+</html>
